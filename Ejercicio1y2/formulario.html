@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8">
+        <title>FORMULARIO</title>
+        <meta name="description" content="Ejemplo formulario HTML5">
+        <meta name="author" content="Jorge Segui Ruiz">
+        <meta name="keywords" content="HTML5">
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIO</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./paginaprueba.html">Página principal</a></li>
+                <li><a href="./formulario.html">Formulario</a></li>
+                <li><a href="./informacion.html">Informacion personal</a></li>
+            </ul>
+        </nav>
+        <form method="GET">
+            <label>Nombre</label><br>
+            <input name="nombre" type="text"><br>
+            <label>Apellidos</label><br>
+            <input name="apellidos" type="text"><br>
+            <label>Email</label><br>
+            <input name="email" type="email"><br>
+            <label>Fecha de nacimiento</label><br>
+            <input name="nacimiento" type="date"><br>
+            <label>Sexo: </label><br>
+            <input type="radio" id="masc" name="sexo" value="masculino">
+            <label>MASCULINO</label><br>
+            <input type="radio" id="fem" name="sexo" value="femenino">
+            <label>FEMENINO</label><br>
+            <label>Código Postal</label><br>
+            <input name="cod_postal" type="number"><br>
+            <label>Ciclo: </label><br>
+            <select name="ciclo">
+                <option value="DAW">DAW</option>
+                <option value="DAM">DAM</option>
+                <option value="ASIX">ASIX</option>
+            </select>
+            <p>Frameworks que conoces: </p>
+            <input name="checkbox1" type="checkbox" value="Angular">
+            <label>Angular</label><br>
+            <input name="checkbox2" type="checkbox" value="Vue">
+            <label>Vue</label><br>
+            <input name="checkbox3" type="checkbox" value="Simfony">
+            <label>Simfony</label><br>
+            <input name="checkbox4" type="checkbox" value="Laravel">
+            <label>Laravel</label><br>
+            <label>Has leído y aceptas nuestras condiciones de servicio y nuestra política de privacidad</label>
+            <input name="condiciones" type="checkbox"><br>
+            <input type="submit" value="Enviar" name="Enviar">
+        </form>
+    </body>
+</html>
